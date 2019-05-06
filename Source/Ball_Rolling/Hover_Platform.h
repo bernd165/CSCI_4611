@@ -27,7 +27,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		float speed = 75;
-	float max_height = 500;
+
+	UPROPERTY(EditAnywhere)
+		float max_height = 500;
 };
